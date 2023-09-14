@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/medusa-icon.svg" />
+    <title>Rewa Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.css" />
+    <link
+      src="http://maxcdn.bootstrapcdn.com/font-awesome/6.4.2/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="header">
+      <div class="logo-svg">
+        <img src="img/medusa-icon.svg" alt="logo" />
+        <a href="index.html">Rewa Shop</a>
+      </div>
+      <div>
+        <ul id="navbar">
+          <li class="nav-link"><a href="index.html">Home</a></li>
+          <li class="nav-link"><a href="shop.html">Shop</a></li>
+          <li class="nav-link"><a href="blog.html">Blog</a></li>
+          <li class="nav-link"><a href="about.html">About</a></li>
+          <li class="nav-link">
+            <a class="active" href="contact.html">Contact</a>
+          </li>
+          <li id="lg-bag">
+            <a href="cart.html"
+              ><button data-quantity="0" class="btn-cart">
+                <svg
+                  class="icon-cart"
+                  viewBox="0 0 24.38 30.52"
+                  height="30.52"
+                  width="24.38"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>icon-cart</title>
+                  <path
+                    transform="translate(-3.62 -0.85)"
+                    d="M28,27.3,26.24,7.51a.75.75,0,0,0-.76-.69h-3.7a6,6,0,0,0-12,0H6.13a.76.76,0,0,0-.76.69L3.62,27.3v.07a4.29,4.29,0,0,0,4.52,4H23.48a4.29,4.29,0,0,0,4.52-4ZM15.81,2.37a4.47,4.47,0,0,1,4.46,4.45H11.35a4.47,4.47,0,0,1,4.46-4.45Zm7.67,27.48H8.13a2.79,2.79,0,0,1-3-2.45L6.83,8.34h3V11a.76.76,0,0,0,1.52,0V8.34h8.92V11a.76.76,0,0,0,1.52,0V8.34h3L26.48,27.4a2.79,2.79,0,0,1-3,2.44Zm0,0"
+                  ></path>
+                </svg>
+                <span class="quantity"></span></button
+            ></a>
+          </li>
+          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"
+          ><i class="fa fa-shopping-cart" aria-hidden="true"></i
+        ></a>
+        <i id="bar" class="fa fa-outdent" aria-hidden="true"></i>
+      </div>
+    </section>
+
+    <section id="page-header">
+      <div>
+        <h2>#let's_talk</h2>
+        <p>LEAVE A MESSAGE, We love to hear from you 😉</p>
+      </div>
+    </section>
+
+    <section id="contact-details" class="section-p1">
+      <div class="details">
+        <span>GEt IN TOUCH</span>
+        <h2>Visit one of our agency locations or contact us today</h2>
+        <h3>Head Office</h3>
+        <div>
+          <li>
+            <i class="fa fa-map" aria-hidden="true"></i>
+            <p>Tehran province, Iran</p>
+          </li>
+          <li>
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <p>contact@example.com</p>
+          </li>
+          <li>
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <p>(+98) 989199000000</p>
+          </li>
+          <li>
+            <i class="fa fa-clock" aria-hidden="true"></i>
+            <p>Sunday to Wednesday: 9.00am to 16.00pm</p>
+          </li>
+        </div>
+      </div>
+
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d829385.0617601258!2d50.68958229057545!3d35.70689826812228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e00491ff3dcd9%3A0xf0b3697c567024bc!2sTehran%2C%20Tehran%20Province%2C%20Iran!5e0!3m2!1sen!2sde!4v1694687010170!5m2!1sen!2sde"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <section id="form-details">
+      <form action="">
+        <span>LEAVE A MESSAGE</span>
+        <h2>We love hear from you</h2>
+        <input type="text" placeholder="Your name" />
+        <input type="text" placeholder="Email" />
+        <textarea
+          name=""
+          placeholder="Message"
+          id=""
+          cols="30"
+          rows="10"
+        ></textarea>
+        <div class="btn-send">
+          <button>
+            <div class="svg-wrapper-1">
+              <div class="svg-wrapper">
+                <svg
+                  style="
+                    display: block;
+                    transform-origin: center center;
+                    transition: transform 0.3s ease-in-out;
+                  "
+                  height="24"
+                  width="24"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M0 0h24v24H0z" fill="none"></path>
+                  <path
+                    d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <span
+              style="
+                display: block;
+                margin-left: 0.3em;
+                transition: all 0.3s ease-in-out;
+              "
+              >Send</span
+            >
+          </button>
+        </div>
+      </form>
+
+      <div class="people">
+        <div>
+          <img src="img/people/3.png" alt="" />
+          <p>
+            <span>Sara Rad</span> Senior Frontend <br />
+            Phone: (+98) 919000000 <br />Email: test@gmail.com
+          </p>
+        </div>
+        <div>
+          <img src="img/people/2.png" alt="" />
+          <p>
+            <span>Alireza Norouzi</span> Senior Backend <br />
+            Phone: (+98) 919000000 <br />Email: test@gmail.com
+          </p>
+        </div>
+        <div>
+          <img src="img/people/1.png" alt="" />
+          <p>
+            <span>Arad Qobadi</span> Senior Marketing Manager <br />
+            Phone: (+98) 919000000 <br />Email: test@gmail.com
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="newsletter" class="section-p1" class="section-m1">
+      <div class="newstext">
+        <h4>Sign Up For Newsletters</h4>
+        <p>Get E-mail about our latest shop and <span>special offers.</span></p>
+      </div>
+      <div class="form">
+        <div class="input-group">
+          <input
+            type="email"
+            class="input"
+            id="Email"
+            name="Email"
+            placeholder="Enter your email address"
+            autocomplete="off"
+          />
+          <input class="button--submit" value="Sign Up" type="submit" />
+        </div>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img src="img/medusa-icon.svg" alt="logo" class="medusa" />
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> Tehran Province, Iran</p>
+        <p><strong>Phone:</strong> (+98) 9109191098</p>
+        <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+          <h4>Follow us</h4>
+          <div class="icons">
+            <a href="#" class="icon1 icon--instagram">
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a href="#" class="icon1 icon--twitter">
+              <i class="ri-twitter-line"></i>
+            </a>
+            <a href="#" class="icon1 icon--linkedin">
+              <i class="ri-linkedin-line"></i>
+            </a>
+            <a href="#" class="icon1 icon--github">
+              <i class="ri-github-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="img/pay/app.jpg" alt="" />
+          <img src="img/pay/play.jpg" alt="" />
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="img/pay/pay.png" alt="" />
+      </div>
+
+      <div class="copyright">
+        <p>© 2023, Tech2 etc - HTML CSS Shopping Web</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
